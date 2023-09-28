@@ -57,6 +57,7 @@ a {
   border: 3px solid black;
   width: fit-content;
   position: relative;
+  text-transform: uppercase;
   z-index: 1;
   cursor: default;
   transition: var(--main-transition);
@@ -901,6 +902,62 @@ a {
   line-height: 1.7;
 }
 /* End work-steps  */
+/* Start Events  */
+.events {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+  background-color: white;
+}
+.events .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.events img{
+  max-width: 450px;
+}
+@media (max-width: 991px) {
+  .events img {
+    display: none;
+  }
+}
+.events .info {
+  flex: 1;
+}
+.events .info .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 10px;
+}
+.events .info .time .unit {
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  width: 76px;
+  text-align: center;
+  transition: var(--main-transition);
+}
+.events .info .time .unit span {
+  display: block;
+}
+.events .info .time .unit span:first-child {
+  font-size: 35px;
+  padding: 10px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.events .info .time .unit span:last-child {
+  padding: 8px 10px;
+  font-size: 13px;
+  border-top: 1px solid #d4d4d4;
+}
+.events .subscribe {
+  width: 100%;
+  margin-top: 50px;
+}
+/* End Events  */
 /* Start Animation  */
 @keyframes up-and-down {
   0%,
