@@ -107,7 +107,7 @@ a {
   background-size: 30px 30px;
 }
 .dots {
-  background-image: url("../images/dots.png");
+  background-image: url("../images/dots.webp");
   height: 186px;
   width: 204px;
   background-repeat: no-repeat;
@@ -1253,7 +1253,7 @@ a {
   padding-top: var(--main-padding-top);
   padding-bottom: var(--main-padding-bottom);
   position: relative;
-  background-image: url("../images/stats.jpg");
+  background-image: url("../images/stats.webp");
   background-size: cover;
   min-height: 300px;
 }
@@ -1331,7 +1331,7 @@ a {
   flex-wrap: wrap;
 }
 .discount .image {
-  background-image: url("../images/discount-background1.jpg");
+  background-image: url("../images/discount-background1.webp");
   background-size: cover;
   color: white;
   flex-basis: 50%;
@@ -1609,10 +1609,10 @@ a {
 @keyframes change-background {
   0%,
   100% {
-    background-image: url("../images/discount-background1.jpg");
+    background-image: url("../images/discount-background1.webp");
   }
   50% {
-    background-image: url("../images/discount-background2.jpg");
+    background-image: url("../images/discount-background2.webp");
   }
 }
 /* End Animation  */
